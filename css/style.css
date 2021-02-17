@@ -2,8 +2,66 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", "Helvetica Neue";
 }
 
 html, body{
     height: 100%;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.clear{clear: both;}
+
+header{
+    width: 100%;
+    height: 90vh;
+    padding: 40px 2%;
+    max-height: 700px;
+    background-size: cover;
+    background-image: url(../images/bg.jpg);
+}
+
+header nav{
+    float: right;
+}
+
+header .logo img{
+    float: left;
+    width: 160px;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    float: left;
+    margin: 0 20px;
+}
+
+header li a{
+    color: #EABF36;
+    text-decoration: none;
+}
+
+.chamada1{
+    float: right;
+    margin: 140px 150px;
+    max-width: 600px;
+}
+
+.chamada1 h2{
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+}
+
+.chamada1 p{
+    font-size: 15px;
+    color: #EABF36;
+    margin-top: 10px;
 }
