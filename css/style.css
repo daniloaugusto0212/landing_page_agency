@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", "Helvetica Neue";
+    font-weight: 300;
 }
 
 html, body{
@@ -20,7 +21,6 @@ header{
     width: 100%;
     height: 90vh;
     padding: 40px 2%;
-    max-height: 700px;
     background-size: cover;
     background-image: url(../images/bg.jpg);
 }
@@ -29,16 +29,20 @@ header nav{
     float: right;
 }
 
+nav.mobile-menu{
+    display: none;
+}
+
 header .logo img{
     float: left;
     width: 160px;
 }
 
-header nav ul{
+header nav.desktop-menu ul{
     list-style-type: none;
 }
 
-header nav li{
+header nav.desktop-menu li{
     float: left;
     margin: 0 20px;
 }
@@ -54,7 +58,7 @@ header li a{
     max-width: 600px;
 }
 
-.chamada1 h2{
+.chamada1 h1{
     font-size: 40px;
     color: white;
     font-weight: lighter;
@@ -65,3 +69,132 @@ header li a{
     color: #EABF36;
     margin-top: 10px;
 }
+
+section.sessao1{
+    width: 100%;
+    background-color: #3F3352;
+    padding: 0 2%;
+    height: 400px;
+}
+
+section.sessao1 .container{
+    max-width: 1000px;
+}
+
+.texto-sessao1{
+    float: left;
+    width: 50%;
+    position: relative;
+    left: 55px;
+    margin-top: 40px;
+    padding-left: 60px;
+    color: #fff;
+}
+
+.texto-sessao1 h2{
+    font-size: 23px;
+}
+
+.texto-sessao1 h4{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.texto-sessao1 ul{
+    font-size: 15px;
+    list-style-position: inside;
+}
+
+.texto-sessao1 ul li{
+    float: left;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.btn1-texto{
+    background-color: #EABF36;
+    width: 165px;
+    height: 44px;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 30px;
+}
+
+.device-sessao1{
+    float: left;
+    width: 50%;
+    position: relative;
+    top: -37px;
+    height: 437px;
+    background-image: url("../images/website.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        width: 100%;
+        height: auto;
+        min-height: 90vh;
+        padding: 40px 2%;
+    }
+    
+    nav.desktop-menu {
+        display: none;
+    }
+
+    nav.mobile-menu {
+        display: block;
+    }
+
+    .chamada1{
+        max-width: none;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        margin: 100px 0;
+    }
+
+    .chamada1 h1{
+        font-size: 30px;
+        padding: 0 10px;
+    }
+
+    section.sessao1{
+        padding: 40px 2%;
+        height: auto;
+        text-align: center;
+    }
+
+    .texto-sessao1{
+        width: 100%;
+        margin-top: 0;
+        padding-left: 0;
+        position: static;
+        float: none;
+        display: inline-block;
+    }
+
+    .texto-sessao1 ul{
+        display: inline-block;
+        margin: 20px;
+    }
+
+    .texto-sessao1 ul li{
+        float: none;
+        text-align: left;
+    }
+
+    .device-sessao1{
+        display: none;
+    }
+
+    .btn1-texto{
+        margin-top: 10px;
+        display: inline-block;
+    }
+}
+

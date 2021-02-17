@@ -19,7 +19,16 @@
                 <img src="images/new-logo.png" alt="Logomarca sitedan criação de sites e sistemas web">
             </div>
             <!-- /.logo -->
-            <nav>
+            <nav class="desktop-menu">
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">serviços</a></li>
+                    <li><a href="">sobre</a></li>
+                    <li><a href="">contato</a></li>
+                </ul>
+            </nav>
+
+            <nav class="mobile-menu">
                 <ul>
                     <li><a href="">home</a></li>
                     <li><a href="">serviços</a></li>
@@ -28,16 +37,38 @@
                 </ul>
             </nav>
             <div class="clear"></div>
-            <!-- /.clear -->
 
             <div class="chamada1">
-                <h2>Sistemas Próprios<br> Para Empresas Autênticas</h2>
+                <h1>Sistemas Próprios<br> Para Empresas Autênticas</h1>
                 <p>CRIAÇÃO DE SITES E SISTEMAS WEB | SITES ATRAENTES E AMIGÁVEIS ​​AO USUÁRIO.</p>
             </div>
             <!-- /.chamada1 -->
         </div>
         <!-- /.container -->
     </header>
+
+    <section class="sessao1">
+        <div class="container">
+            <div class="texto-sessao1">
+                <h2>Desenvolvemos Sites e Sistemas Únicos</h2>
+                <h4>Nossos serviços:</h4>
+                <ul>
+                    <li>Sites</li>
+                    <li>Lojas Virtuais</li>
+                    <li>Sistemas</li>
+                    <li>Portais</li>
+                </ul>
+                <div class="clear"></div>
+                <div class="btn1-texto">Saiba mais</div>
+            </div>
+            <!-- /.texto-sessao1 -->
+            <div class="device-sessao1"></div>
+            <!-- /.device-sessao1 -->
+            <div class="clear"></div>
+        </div>
+        <!-- /.container --> 
+    </section>
+    <!-- /.sessao1 -->
     
 </body>
 </html>
