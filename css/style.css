@@ -31,6 +31,45 @@ header nav{
 
 nav.mobile-menu{
     display: none;
+    cursor: pointer;
+}
+
+nav.mobile-menu:hover ul{
+    opacity: 1;
+}
+
+nav.mobile-menu i{
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 32px;
+    color: white;
+}
+
+nav.mobile-menu ul{
+    opacity: 0;
+    transition: 1s;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 80px;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav.mobile-menu ul li{
+    border-bottom: 2px solid #EABF36;
+    transition: 1s;
+    padding: 8px 0;
+}
+
+nav.mobile-menu ul li:hover{
+    background-color: #fff;
+}
+
+nav.mobile-menu ul li a{
+    text-decoration: none;
 }
 
 header .logo img{
@@ -102,7 +141,8 @@ section.sessao1 .container{
 
 .texto-sessao1 ul{
     font-size: 15px;
-    list-style-position: inside;
+    list-style-position: outside;
+    padding-left: 16px;
 }
 
 .texto-sessao1 ul li{
@@ -150,12 +190,16 @@ section.sessao1 .container{
         display: block;
     }
 
+    nav.mobile-menu ul{
+        top: 100px;
+    }
+
     .chamada1{
         max-width: none;
         width: 100%;
         text-align: center;
         margin: 0;
-        margin: 100px 0;
+        margin: 160px 0;
     }
 
     .chamada1 h1{
