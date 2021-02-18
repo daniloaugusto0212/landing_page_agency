@@ -71,6 +71,17 @@
         <!-- /.container --> 
     </section>
     <!-- /.sessao1 -->
+
+    <section class="sessao2">
+        <div class="container">
+            <h2>Desenvolvido por pessoas e para pessoas</h2>
+            <p>Culpa fugiat fugiat labore qui ad adipisicing dolore.Tempor eiusmod minim ipsum sit culpa proident.Occaecat ad in tempor aliquip qui minim enim nostrud.Cillum enim et nulla consequat dolor.</p>
+            <img src="images/mockup.jpg" alt="Imagem do portifólio de criação de sites">
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.sessao2 -->
+    
     
 </body>
 </html>

@@ -20,6 +20,7 @@ html, body{
 header{
     width: 100%;
     height: 90vh;
+    min-height: 800px;
     padding: 40px 2%;
     background-size: cover;
     background-image: url(../images/bg.jpg);
@@ -174,6 +175,54 @@ section.sessao1 .container{
     background-size: 100% 100%;
 }
 
+section.sessao2{
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    background-image: url("../images/secondbg.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /*Efeito paralax*/
+}
+
+.sessao2 .container{
+    max-width: 1000px;
+}
+
+section.sessao2 h2{
+    color: #3f3352;
+    font-weight: normal;
+}
+
+section.sessao2 p{
+    color: #3f3352;
+    font-weight: normal;
+    margin-top: 30px;
+    max-width: 900px;
+    display: inline-block;
+}
+
+section.sessao2 img{
+    width: 100%;
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 830px) {
+    .chamada1{
+        max-width: none;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        margin: 170px 0;
+    }
+
+    .chamada1 h1{
+        font-size: 30px;
+        padding: 0 10px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     header{
         width: 100%;
@@ -239,6 +288,10 @@ section.sessao1 .container{
     .btn1-texto{
         margin-top: 10px;
         display: inline-block;
+    }
+
+    .sessao2{
+        padding: 40px 2%;
     }
 }
 
