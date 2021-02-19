@@ -75,12 +75,50 @@
     <section class="sessao2">
         <div class="container">
             <h2>Desenvolvido por pessoas e para pessoas</h2>
-            <p>Culpa fugiat fugiat labore qui ad adipisicing dolore.Tempor eiusmod minim ipsum sit culpa proident.Occaecat ad in tempor aliquip qui minim enim nostrud.Cillum enim et nulla consequat dolor.</p>
+            <p>Culpa fugiat fugiat labore qui ad adipisicing dolore.Tempor eiusmod minim ipsum sit culpa proident.Occaecat ad in tempor aliquip qui minim enim nostrud.Cillum enim et nulla consequat dolor.Culpa fugiat fugiat labore qui ad adipisicing dolore.Tempor eiusmod minim ipsum sit culpa proident.Occaecat ad in tempor aliquip qui minim enim nostrud.Cillum enim et nulla consequat dolor.</p>
             <img src="images/mockup.jpg" alt="Imagem do portifólio de criação de sites">
         </div>
         <!-- /.container -->
     </section>
     <!-- /.sessao2 -->
+
+    <section class="sessao3">
+        <div class="part1">
+            <div class="wraper-part1">
+                <h2>Nosso time</h2>
+                <p>Duis nisi deserunt ea eiusmod enim culpa ullamco consequat tempor.Cupidatat mollit ea ea velit mollit esse est aliqua quis velit amet.Fugiat minim tempor incididunt fugiat ipsum laboris ipsum fugiat et ex excepteur elit voluptate proident.</p>
+            </div>
+        </div>
+        <!-- /.part1 -->
+
+        <div class="part2">
+            <div class="sobre-autor">
+                <div class="titulo-autor">
+                    <div class="wraper-titulo-autor">
+                        <h2>Danilo Augusto</h2>
+                        <p>Co-Founder / Desenvolvedor</p>
+                    </div>
+                    <!-- /.wraper-titulo-autor -->
+                    <div class="img-autor"></div>
+                    <!-- /.img-autor -->
+                </div>
+                <!-- /.titulo-autor -->
+                <div class="texto-autor">
+                    <p>Cupidatat nisi do dolor elit mollit excepteur proident nisi.Velit consequat elit sunt consequat cupidatat minim do velit voluptate adipisicing nisi in.</p>
+                </div>
+                <!-- /.texto-autor -->
+            </div>
+            <!-- /.sobre-autor -->
+            <div class="slider-bullets">
+                <span class="selected"></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- /.slider-bullets -->
+        </div>
+        <!-- /.part2 -->
+    </section>
+    <!-- /.sessao3 -->
     
     
 </body>
