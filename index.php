@@ -117,8 +117,36 @@
             <!-- /.slider-bullets -->
         </div>
         <!-- /.part2 -->
+        <div class="clear"></div>
     </section>
     <!-- /.sessao3 -->
+
+    <section class="sessao4">
+        <div class="container">
+            <div class="form">
+                <h2>Entre em contato</h2>
+                <p>1Dolore officia labore ullamco aliqua eu non adipisicing incididunt est amet occaecat consectetur.Qui minim nostrud reprehenderit proident laboris deserunt ullamco aute do minim pariatur velit.</p>
+
+                <form>
+                    <input type="text" name="nome" placeholder="Nome...">
+                    <input type="text" name="email" placeholder="Email...">
+                    <textarea name="mensagem" placeholder="Mensagem..."></textarea>
+                    <input type="submit" value="Enviar!">
+                </form>
+            </div>
+            <!-- /.form -->
+
+            <div class="map-wraper">
+                <h2>Faça uma visita</h2>
+                <div id="map" class="map">
+                </div>
+                <!-- /.map -->
+            </div>
+        </div>
+        <!-- /.container -->
+        <div class="clear"></div>
+    </section>
+    <!-- /.sessao4 -->
     
     
 </body>
