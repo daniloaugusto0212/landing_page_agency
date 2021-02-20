@@ -143,7 +143,7 @@
                 <div class="map-wraper3">
                     <div class="map-wraper2">
                         <div id="map" class="map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d467688.89495119266!2d-46.5952992!3d-23.6824124!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce635b43b29feb%3A0xe23cb1bf2d6ddd36!2sRua%20M%C3%B3ises%20Alves%20dos%20Santos%2C%20434%20-%20Jardim%20das%20Oliveiras%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008111-510!5e0!3m2!1spt-BR!2sbr!4v1613835155908!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d467688.89495119266!2d-46.5952992!3d-23.6824124!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce635b43b29feb%3A0xe23cb1bf2d6ddd36!2sRua%20M%C3%B3ises%20Alves%20dos%20Santos%2C-%20Jardim%20das%20Oliveiras%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008111-510!5e0!3m2!1spt-BR!2sbr!4v1613835155908!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
                         <!-- map -->
                     </div>
