@@ -49,9 +49,9 @@
         <!-- /.container -->
     </header>
 
-    <section class="sessao1">
+    <section class="secao1">
         <div class="container">
-            <div class="texto-sessao1">
+            <div class="texto-secao1">
                 <h2>Desenvolvemos Sites e Sistemas Únicos</h2>
                 <h4>Nossos serviços:</h4>
                 <ul>
@@ -63,16 +63,16 @@
                 <div class="clear"></div>
                 <div class="btn1-texto">Saiba mais</div>
             </div>
-            <!-- /.texto-sessao1 -->
-            <div class="device-sessao1"></div>
-            <!-- /.device-sessao1 -->
+            <!-- /.texto-secao1 -->
+            <div class="device-secao1"></div>
+            <!-- /.device-secao1 -->
             <div class="clear"></div>
         </div>
         <!-- /.container --> 
     </section>
-    <!-- /.sessao1 -->
+    <!-- /.secao1 -->
 
-    <section class="sessao2">
+    <section class="secao2">
         <div class="container">
             <h2>Desenvolvido por pessoas e para pessoas</h2>
             <p>Culpa fugiat fugiat labore qui ad adipisicing dolore.Tempor eiusmod minim ipsum sit culpa proident.Occaecat ad in tempor aliquip qui minim enim nostrud.Cillum enim et nulla consequat dolor.Culpa fugiat fugiat labore qui ad adipisicing dolore.Tempor eiusmod minim ipsum sit culpa proident.Occaecat ad in tempor aliquip qui minim enim nostrud.Cillum enim et nulla consequat dolor.</p>
@@ -80,9 +80,9 @@
         </div>
         <!-- /.container -->
     </section>
-    <!-- /.sessao2 -->
+    <!-- /.secao2 -->
 
-    <section class="sessao3">
+    <section class="secao3">
         <div class="part1">
             <div class="wraper-part1">
                 <h2>Nosso time</h2>
@@ -119,26 +119,32 @@
         <!-- /.part2 -->
         <div class="clear"></div>
     </section>
-    <!-- /.sessao3 -->
+    <!-- /.secao3 -->
 
-    <section class="sessao4">
+    <section class="secao4">
         <div class="container">
             <div class="form">
                 <h2>Entre em contato</h2>
-                <p>1Dolore officia labore ullamco aliqua eu non adipisicing incididunt est amet occaecat consectetur.Qui minim nostrud reprehenderit proident laboris deserunt ullamco aute do minim pariatur velit.</p>
+                <p>Nos envie uma mensagem com sua dúvida. Responderemos o mais breve possível.</p>
 
                 <form>
                     <input type="text" name="nome" placeholder="Nome...">
                     <input type="text" name="email" placeholder="Email...">
                     <textarea name="mensagem" placeholder="Mensagem..."></textarea>
-                    <input type="submit" value="Enviar!">
+                    <div class="clear"></div>
+                    <div><input type="submit" value="Enviar!"></div>
                 </form>
             </div>
             <!-- /.form -->
 
             <div class="map-wraper">
                 <h2>Faça uma visita</h2>
-                <div id="map" class="map">
+                <div class="map-wraper3">
+                    <div class="map-wraper2">
+                        <div id="map" class="map">
+                    </div>
+                    </div>
+                    <!-- map-wraper2 -->
                 </div>
                 <!-- /.map -->
             </div>
@@ -146,7 +152,7 @@
         <!-- /.container -->
         <div class="clear"></div>
     </section>
-    <!-- /.sessao4 -->
+    <!-- /.secao4 -->
     
     
 </body>
