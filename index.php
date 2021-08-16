@@ -23,9 +23,9 @@
             <nav class="desktop-menu">
                 <ul>
                     <li><a href="">home</a></li>
-                    <li><a href="">serviços</a></li>
-                    <li><a href="">sobre</a></li>
-                    <li><a href="">contato</a></li>
+                    <li><a href="#servicos">serviços</a></li>
+                    <li><a href="#sobre">sobre</a></li>
+                    <li><a href="#contato">contato</a></li>
                 </ul>
             </nav>
 
@@ -33,9 +33,9 @@
                 <i class="fas fa-bars"></i>
                 <ul>
                     <li><a href="">home</a></li>
-                    <li><a href="">serviços</a></li>
-                    <li><a href="">sobre</a></li>
-                    <li><a href="">contato</a></li>
+                    <li><a href="#servicos">serviços</a></li>
+                    <li><a href="#sobre">sobre</a></li>
+                    <li><a href="#contato">contato</a></li>
                 </ul>
             </nav>
             <div class="clear"></div>
@@ -49,7 +49,7 @@
         <!-- /.container -->
     </header>
 
-    <section class="secao1">
+    <section id="servicos" class="secao1">
         <div class="container">
             <div class="texto-secao1">
                 <h2>Desenvolvemos Sites e Sistemas Únicos</h2>
@@ -72,7 +72,7 @@
     </section>
     <!-- /.secao1 -->
 
-    <section class="secao2">
+    <section id="sobre" class="secao2">
         <div class="container">
             <h2>Desenvolvido por pessoas e para pessoas</h2>
             <p>Culpa fugiat fugiat labore qui ad adipisicing dolore.Tempor eiusmod minim ipsum sit culpa proident.Occaecat ad in tempor aliquip qui minim enim nostrud.Cillum enim et nulla consequat dolor.Culpa fugiat fugiat labore qui ad adipisicing dolore.Tempor eiusmod minim ipsum sit culpa proident.Occaecat ad in tempor aliquip qui minim enim nostrud.Cillum enim et nulla consequat dolor.</p>
@@ -122,7 +122,7 @@
     </section>
     <!-- /.secao3 -->
 
-    <section class="secao4">
+    <section id="contato" class="secao4">
         <div class="container">
             <div class="form">
                 <h2>Entre em contato</h2>
@@ -169,6 +169,7 @@
 
     <script src="js/jquery-3.6.js"></script>
     <script src="js/menu-responsivo.js"></script>
+    <script src="js/menu-scroll.js"></script>
     
 </body>
 </html>
