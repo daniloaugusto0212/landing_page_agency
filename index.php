@@ -164,7 +164,11 @@
             <div class="clear"></div>
         </div>
     </footer>
-    
+
+
+
+    <script src="js/jquery-3.6.js"></script>
+    <script src="js/menu-responsivo.js"></script>
     
 </body>
 </html>

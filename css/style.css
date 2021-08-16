@@ -35,9 +35,9 @@ nav.mobile-menu{
     cursor: pointer;
 }
 
-nav.mobile-menu:hover ul{
+/* nav.mobile-menu:hover ul{
     opacity: 1;
-}
+} */
 
 nav.mobile-menu i{
     margin-top: 10px;
@@ -47,8 +47,7 @@ nav.mobile-menu i{
 }
 
 nav.mobile-menu ul{
-    opacity: 0;
-    transition: 1s;
+    display: none;
     background-color: transparent;
     position: absolute;
     width: 100%;
