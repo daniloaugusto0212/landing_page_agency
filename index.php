@@ -92,28 +92,89 @@
         <!-- /.part1 -->
 
         <div class="part2">
-            <div class="sobre-autor">
-                <div class="titulo-autor">
-                <div class="img-autor"></div>
-                    <!-- /.img-autor -->
-                    <div class="wraper-titulo-autor">
-                        <h2>Danilo Augusto</h2>
-                        <p>Co-Founder / Desenvolvedor</p>
-                    </div>
-                    <!-- /.wraper-titulo-autor -->
+            <div class="scroll-equipe">
+                <div class="scroll-wraper">
+                    <div class="sobre-autor">
+                        <div class="titulo-autor">
+                        <div class="img-autor"></div>
+                            <!-- /.img-autor -->
+                            <div class="wraper-titulo-autor">
+                                <h2>Danilo Augusto</h2>
+                                <p>Co-Founder / Desenvolvedor</p>
+                            </div>
+                            <!-- /.wraper-titulo-autor -->
                     
+                        </div>
+                        <!-- /.titulo-autor -->
+                        <div class="texto-autor">
+                            <p>Cupidatat nisi do dolor elit mollit excepteur proident nisi.Velit consequat elit sunt consequat cupidatat minim do velit voluptate adipisicing nisi in.</p>
+                        </div>
+                        <!-- /.texto-autor -->
+                    </div>
+                    <!-- /.sobre-autor -->
+
+                    <div class="sobre-autor">
+                        <div class="titulo-autor">
+                        <div class="img-autor"></div>
+                            <!-- /.img-autor -->
+                            <div class="wraper-titulo-autor">
+                                <h2>Danilo Augusto</h2>
+                                <p>Co-Founder / Desenvolvedor</p>
+                            </div>
+                            <!-- /.wraper-titulo-autor -->
+                    
+                        </div>
+                        <!-- /.titulo-autor -->
+                        <div class="texto-autor">
+                            <p>Cupidatat nisi do dolor elit mollit excepteur proident nisi.Velit consequat elit sunt consequat cupidatat minim do velit voluptate adipisicing nisi in.</p>
+                        </div>
+                        <!-- /.texto-autor -->
+                    </div>
+                    <!-- /.sobre-autor -->
+
+                    <div class="sobre-autor">
+                        <div class="titulo-autor">
+                        <div class="img-autor"></div>
+                            <!-- /.img-autor -->
+                            <div class="wraper-titulo-autor">
+                                <h2>Danilo Augusto</h2>
+                                <p>Co-Founder / Desenvolvedor</p>
+                            </div>
+                            <!-- /.wraper-titulo-autor -->
+                    
+                        </div>
+                        <!-- /.titulo-autor -->
+                        <div class="texto-autor">
+                            <p>Cupidatat nisi do dolor elit mollit excepteur proident nisi.Velit consequat elit sunt consequat cupidatat minim do velit voluptate adipisicing nisi in.</p>
+                        </div>
+                        <!-- /.texto-autor -->
+                    </div>
+                    <!-- /.sobre-autor -->
+
+                    <div class="sobre-autor">
+                        <div class="titulo-autor">
+                        <div class="img-autor"></div>
+                            <!-- /.img-autor -->
+                            <div class="wraper-titulo-autor">
+                                <h2>Danilo Augusto</h2>
+                                <p>Co-Founder / Desenvolvedor</p>
+                            </div>
+                            <!-- /.wraper-titulo-autor -->
+                    
+                        </div>
+                        <!-- /.titulo-autor -->
+                        <div class="texto-autor">
+                            <p>Cupidatat nisi do dolor elit mollit excepteur proident nisi.Velit consequat elit sunt consequat cupidatat minim do velit voluptate adipisicing nisi in.</p>
+                        </div>
+                        <!-- /.texto-autor -->
+                    </div>
+                    <!-- /.sobre-autor -->
                 </div>
-                <!-- /.titulo-autor -->
-                <div class="texto-autor">
-                    <p>Cupidatat nisi do dolor elit mollit excepteur proident nisi.Velit consequat elit sunt consequat cupidatat minim do velit voluptate adipisicing nisi in.</p>
-                </div>
-                <!-- /.texto-autor -->
+                <!-- /.scroll-wraper -->
             </div>
-            <!-- /.sobre-autor -->
+            <!-- /.scroll-equipe -->
             <div class="slider-bullets">
-                <span class="selected"></span>
-                <span></span>
-                <span></span>
+
             </div>
             <!-- /.slider-bullets -->
         </div>
@@ -170,6 +231,7 @@
     <script src="js/jquery-3.6.js"></script>
     <script src="js/menu-responsivo.js"></script>
     <script src="js/menu-scroll.js"></script>
+    <script src="js/slider-equipe.js"></script>
     
 </body>
 </html>
