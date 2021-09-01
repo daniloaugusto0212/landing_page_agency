@@ -99,7 +99,7 @@
                         <div class="img-autor"></div>
                             <!-- /.img-autor -->
                             <div class="wraper-titulo-autor">
-                                <h2>Danilo Augusto</h2>
+                                <h2>Danilo Augusto1</h2>
                                 <p>Co-Founder / Desenvolvedor</p>
                             </div>
                             <!-- /.wraper-titulo-autor -->
@@ -118,7 +118,7 @@
                         <div class="img-autor"></div>
                             <!-- /.img-autor -->
                             <div class="wraper-titulo-autor">
-                                <h2>Danilo Augusto</h2>
+                                <h2>Danilo Augusto2</h2>
                                 <p>Co-Founder / Desenvolvedor</p>
                             </div>
                             <!-- /.wraper-titulo-autor -->
@@ -137,7 +137,7 @@
                         <div class="img-autor"></div>
                             <!-- /.img-autor -->
                             <div class="wraper-titulo-autor">
-                                <h2>Danilo Augusto</h2>
+                                <h2>Danilo Augusto3</h2>
                                 <p>Co-Founder / Desenvolvedor</p>
                             </div>
                             <!-- /.wraper-titulo-autor -->
@@ -156,7 +156,7 @@
                         <div class="img-autor"></div>
                             <!-- /.img-autor -->
                             <div class="wraper-titulo-autor">
-                                <h2>Danilo Augusto</h2>
+                                <h2>Danilo Augusto4</h2>
                                 <p>Co-Founder / Desenvolvedor</p>
                             </div>
                             <!-- /.wraper-titulo-autor -->
@@ -189,10 +189,12 @@
                 <h2>Entre em contato</h2>
                 <p>Nos envie uma mensagem com sua dúvida. Responderemos o mais breve possível.</p>
 
-                <form>
-                    <input type="text" name="nome" placeholder="Nome...">
-                    <input type="text" name="email" placeholder="Email...">
-                    <textarea name="mensagem" placeholder="Mensagem..."></textarea>
+                <form method="post" action="form.php">
+                    <input type="hidden" name="nome do formulário" value="Formulário 1">
+                    <input type="text" name="nome" placeholder="Nome..." required>
+                    <input type="text" name="email" placeholder="Email..." required>
+                    <input type="text" name="telefone" placeholder="Telefone..." required>
+                    <textarea name="mensagem" placeholder="Mensagem..." required></textarea>
                     <div class="clear"></div>
                     <div><input type="submit" value="Enviar!"></div>
                 </form>
@@ -229,6 +231,8 @@
 
 
     <script src="js/jquery-3.6.js"></script>
+    <script src="js/jquery.ajaxform.js"></script>
+    <script src="js/functions.js"></script>
     <script src="js/menu-responsivo.js"></script>
     <script src="js/menu-scroll.js"></script>
     <script src="js/slider-equipe.js"></script>
