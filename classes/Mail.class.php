@@ -5,7 +5,7 @@ class Mail
 
     public $opt,$mailer;
     public $email = 'danilo@abrircnpjmei.com.br';//Trocar e-mail aqui!
-    public $senha = '+2eXjkLo';//Trocar senha aqui!
+    public $senha = '******';//Trocar senha aqui!
 
     public function __construct(array $parametros)
     {
