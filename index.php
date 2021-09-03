@@ -191,10 +191,10 @@
 
                 <form method="post" action="form.php">
                     <input type="hidden" name="nome do formulário" value="Formulário 1">
-                    <input type="text" name="nome" placeholder="Nome..." required>
-                    <input type="text" name="email" placeholder="Email..." required>
-                    <input type="text" name="telefone" placeholder="Telefone..." required>
-                    <textarea name="mensagem" placeholder="Mensagem..." required></textarea>
+                    <input type="text" name="nome" placeholder="Nome..." >
+                    <input type="email" name="email" placeholder="Email..." >
+                    <input type="text" name="telefone" placeholder="Telefone..." >
+                    <textarea name="mensagem" placeholder="Mensagem..." ></textarea>
                     <div class="clear"></div>
                     <div><input type="submit" value="Enviar!"></div>
                 </form>

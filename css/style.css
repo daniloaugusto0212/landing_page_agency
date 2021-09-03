@@ -362,7 +362,7 @@ section.secao4{
     margin-top: 15px;
 }
 
-.form form input[type="text"]{
+.form form input[type="text"], .form form input[type=email] {
     width: 90%;
     max-width:480px;
     height: 58px;
